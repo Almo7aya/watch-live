@@ -11,6 +11,7 @@ export const VideoJS = (props) => {
     autoplay: false,
     controls: true,
     responsive: true,
+    preload: 'none',
     fluid: true,
     sources: [{
       src: props.src,
